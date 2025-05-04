@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <img 
-              src="/lovable-uploads/f42849d6-8b74-4d8e-b187-fbf980166891.png" 
+              src="/lovable-uploads/6f88bc1a-24fd-4db7-9e17-e67cbbc2ca98.png" 
               alt="Saillent Logo" 
               className="h-16 mb-6"
             />
@@ -111,9 +111,9 @@ const Footer = () => {
         {/* Large logo in bottom right */}
         <div className="hidden md:block absolute bottom-12 right-0">
           <img 
-            src="/lovable-uploads/f42849d6-8b74-4d8e-b187-fbf980166891.png" 
+            src="/lovable-uploads/6f88bc1a-24fd-4db7-9e17-e67cbbc2ca98.png" 
             alt="Saillent Logo" 
-            className="h-24 opacity-90"
+            className="h-28 opacity-90"
           />
         </div>
       </div>

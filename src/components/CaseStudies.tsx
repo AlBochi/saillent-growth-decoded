@@ -23,6 +23,26 @@ const CaseStudies = () => {
         { label: 'Revenue Growth', value: '22%' }
       ],
       image: 'https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+      title: 'Fintech Customer Acquisition',
+      description: 'Developed targeted acquisition strategies for a fintech startup, resulting in 65% increase in new customers with 30% lower CAC.',
+      metrics: [
+        { label: 'New Customers', value: '+65%' },
+        { label: 'Reduced CAC', value: '-30%' },
+        { label: 'Conversion Rate', value: '+42%' }
+      ],
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+      title: 'Healthcare Patient Retention',
+      description: 'Optimized patient engagement process for a healthcare provider network, reducing patient churn by 37% and increasing referrals.',
+      metrics: [
+        { label: 'Churn Reduction', value: '37%' },
+        { label: 'Referral Increase', value: '+45%' },
+        { label: 'Satisfaction Score', value: '92%' }
+      ],
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800'
     }
   ];
 
@@ -57,7 +77,7 @@ const CaseStudies = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 mb-20">
+        <div className="grid md:grid-cols-2 gap-12 mb-20">
           {caseStudies.map((study, index) => (
             <div 
               key={index}

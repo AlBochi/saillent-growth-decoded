@@ -22,13 +22,25 @@ const ContactForm = () => {
     e.preventDefault();
     setSubmitting(true);
     
-    // Simulate form submission
     try {
-      // In a real implementation, this would be an API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      const response = await fetch('https://formspree.io/f/xqaqpndk', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          _replyto: formData.email,
+          _subject: `New message from ${formData.name}`,
+        }),
+      });
       
-      toast.success('Message sent successfully! We will get back to you shortly.');
-      setFormData({ name: '', email: '', message: '' });
+      if (response.ok) {
+        toast.success('Message sent successfully! We will get back to you shortly.');
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Failed to submit the form');
+      }
     } catch (error) {
       toast.error('Something went wrong. Please try again.');
       console.error('Form submission error:', error);

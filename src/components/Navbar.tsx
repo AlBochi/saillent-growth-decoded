@@ -35,9 +35,9 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/f42849d6-8b74-4d8e-b187-fbf980166891.png" 
+            src="/lovable-uploads/6f88bc1a-24fd-4db7-9e17-e67cbbc2ca98.png" 
             alt="Saillent Logo" 
-            className="h-14 md:h-16"
+            className="h-16 md:h-20"
           />
         </Link>
         
