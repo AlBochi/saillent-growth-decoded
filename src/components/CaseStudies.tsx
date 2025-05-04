@@ -107,6 +107,18 @@ const CaseStudies = () => {
           ))}
         </div>
         
+        {/* Our Trusted Partners section */}
+        <div className="mb-20">
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-10">Our Trusted Partners</h3>
+          <div className="w-full flex justify-center">
+            <img 
+              src="/lovable-uploads/3d94f776-3399-44bd-b455-ed83bccf481d.png"
+              alt="Our Trusted Partners" 
+              className="w-full max-w-6xl"
+            />
+          </div>
+        </div>
+        
         {/* Header image before testimonials */}
         <div className="w-full flex justify-center mb-16">
           <img 
