@@ -6,7 +6,7 @@ const CaseStudies = () => {
   const caseStudies = [
     {
       title: 'E-commerce Churn Reduction',
-      description: 'Helped Company X reduce churn by 25% within 6 months, resulting in $500K in retained revenue.',
+      description: 'Helped Deliveroo reduce churn by 25% within 6 months, resulting in $500K in retained revenue.',
       metrics: [
         { label: 'Churn Reduction', value: '25%' },
         { label: 'Revenue Retained', value: '$500K' },
@@ -16,7 +16,7 @@ const CaseStudies = () => {
     },
     {
       title: 'SaaS Growth Strategy',
-      description: 'Implemented data-driven retention strategy for a SaaS platform, increasing customer lifetime value by 40%.',
+      description: 'Implemented data-driven retention strategy for Babbel GmbH, increasing customer lifetime value by 40%.',
       metrics: [
         { label: 'LTV Increase', value: '40%' },
         { label: 'Retention Rate', value: '+15%' },
@@ -25,20 +25,20 @@ const CaseStudies = () => {
       image: 'https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&q=80&w=800'
     },
     {
-      title: 'Fintech Customer Acquisition',
-      description: 'Developed targeted acquisition strategies for a fintech startup, resulting in 65% increase in new customers with 30% lower CAC.',
+      title: 'HR Software Customer Acquisition',
+      description: 'Developed targeted acquisition strategies for Palm.hr, resulting in 1000 new customers acquired in 1 year.',
       metrics: [
-        { label: 'New Customers', value: '+65%' },
-        { label: 'Reduced CAC', value: '-30%' },
+        { label: 'New Customers', value: '1000+' },
+        { label: 'Acquisition Cost', value: '-30%' },
         { label: 'Conversion Rate', value: '+42%' }
       ],
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'
     },
     {
-      title: 'Healthcare Patient Retention',
-      description: 'Optimized patient engagement process for a healthcare provider network, reducing patient churn by 37% and increasing referrals.',
+      title: 'Cosmetic Surgery Patient Retention',
+      description: 'Optimized patient engagement process for The Godek Center, increasing patient retention by 40% through targeted communication.',
       metrics: [
-        { label: 'Churn Reduction', value: '37%' },
+        { label: 'Patient Retention', value: '+40%' },
         { label: 'Referral Increase', value: '+45%' },
         { label: 'Satisfaction Score', value: '92%' }
       ],
@@ -49,14 +49,14 @@ const CaseStudies = () => {
   const testimonials = [
     {
       quote: "Saillent transformed our data into actionable strategies that boosted our retention rates significantly. Highly recommend!",
-      author: "Jane Smith",
-      company: "CEO of Company Y",
+      author: "Connie R. Burgoyne",
+      company: "Growth at Camunda",
       image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200&h=200"
     },
     {
       quote: "The insights provided by Saillent's analytics revolutionized our approach to customer engagement. The ROI has been remarkable.",
-      author: "Michael Johnson",
-      company: "CMO of Tech Solutions Inc.",
+      author: "Perry Reed",
+      company: "CMO of GBN",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200"
     },
     {
@@ -105,6 +105,15 @@ const CaseStudies = () => {
               </div>
             </div>
           ))}
+        </div>
+        
+        {/* Header image before testimonials */}
+        <div className="w-full flex justify-center mb-16">
+          <img 
+            src="/lovable-uploads/e5396fc7-9483-405d-bc37-a2819a208962.png"
+            alt="Saillent Header" 
+            className="w-full max-w-5xl"
+          />
         </div>
 
         <h3 className="text-2xl md:text-3xl font-bold text-center mb-12">What Our Clients Say</h3>
