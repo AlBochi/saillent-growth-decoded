@@ -37,7 +37,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/6f88bc1a-24fd-4db7-9e17-e67cbbc2ca98.png" 
             alt="Saillent Logo" 
-            className="h-16 md:h-20"
+            className="h-24 md:h-28" // Increased logo size from h-16/h-20 to h-24/h-28
           />
         </Link>
         

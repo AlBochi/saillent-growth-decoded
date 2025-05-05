@@ -119,14 +119,7 @@ const CaseStudies = () => {
           </div>
         </div>
         
-        {/* Header image before testimonials */}
-        <div className="w-full flex justify-center mb-16">
-          <img 
-            src="/lovable-uploads/e5396fc7-9483-405d-bc37-a2819a208962.png"
-            alt="Saillent Header" 
-            className="w-full max-w-5xl"
-          />
-        </div>
+        {/* Removed the broken header image that was here */}
 
         <h3 className="text-2xl md:text-3xl font-bold text-center mb-12">What Our Clients Say</h3>
         
